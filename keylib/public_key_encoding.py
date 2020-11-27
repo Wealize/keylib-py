@@ -15,6 +15,7 @@ from .utils import (
     is_hex_ecdsa_pubkey, is_binary_ecdsa_pubkey, PUBLIC_KEY_MAGIC_BYTE
 )
 
+from .exceptions import InvalidPublicKeyError
 
 class CharEncoding():
     hex = 16
